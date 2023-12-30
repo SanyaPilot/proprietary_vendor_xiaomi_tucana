@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/tucana/proprietary/vendor/etc/camera/visidon_clearshot_params_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/visidon_clearshot_params_algoup.xml \
     vendor/xiaomi/tucana/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/tucana/proprietary/vendor/etc/elliptic_sensor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/elliptic_sensor.xml \
-    vendor/xiaomi/tucana/proprietary/vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.4-service_64.rc \
     vendor/xiaomi/tucana/proprietary/vendor/etc/init/init.batterysecret.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.batterysecret.rc \
     vendor/xiaomi/tucana/proprietary/vendor/etc/init/init.mi_thermald.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.mi_thermald.rc \
     vendor/xiaomi/tucana/proprietary/vendor/etc/init/init.vendor.sensors.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vendor.sensors.rc \
@@ -187,21 +186,8 @@ PRODUCT_PACKAGES += \
     libspkrprot \
     libSuperSensor_skel \
     libVDHexagonSuperPhoto_skel \
-    libarcsoft_hdrplus_hvx_skel \
     libremosaichvx_skel \
-    libsnpe_dsp_v65_domains_v2_skel \
-    libsnpe_dsp_v66_domains_v2_skel \
     libxlog \
-    android.hardware.camera.provider@2.4-external \
-    android.hardware.camera.provider@2.4-legacy \
-    camera.device@1.0-impl \
-    camera.device@3.2-impl \
-    camera.device@3.3-impl \
-    camera.device@3.4-external-impl \
-    camera.device@3.4-impl \
-    camera.device@3.5-external-impl \
-    camera.device@3.5-impl \
-    camera.device@3.6-external-impl \
     com.qti.sensor.imx350_tucana \
     com.qti.sensor.ov02a10_tucana \
     com.qti.sensor.ov08a10_tucana \
@@ -269,7 +255,6 @@ PRODUCT_PACKAGES += \
     com.xiaomi.node.misegment \
     libdepthmapwrapper \
     libmmcamera_cac3 \
-    android.hardware.camera.provider@2.4-impl \
     camera.qcom \
     com.qti.chi.override \
     consumerir.sm6150 \
@@ -278,7 +263,6 @@ PRODUCT_PACKAGES += \
     libFaceGrade \
     libHalSuperSensorServer \
     libHalSuperSensorServerCWrapper \
-    libMegviiFacepp-0.5.2 \
     libSNPE \
     libSuperSensor \
     libSuperSensorCPU \
@@ -327,7 +311,6 @@ PRODUCT_PACKAGES += \
     libflaw \
     libft2vendor \
     libgf_hal \
-    libmegface \
     libmialgo_basic \
     libmialgo_fs \
     libmialgo_rfs \
@@ -365,11 +348,8 @@ PRODUCT_PACKAGES += \
     sensors.mius.proximity \
     sensors.ssc \
     sensors.touch \
-    vendor.qti.hardware.camera.device@1.0 \
     vendor.qti.hardware.camera.device@3.5 \
     batterysecret \
-    cnss-daemon \
-    android.hardware.camera.provider@2.4-service_64 \
     mi_thermald \
     sensors.qti \
     thermal-engine
